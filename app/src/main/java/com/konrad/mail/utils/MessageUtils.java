@@ -37,6 +37,8 @@ public interface MessageUtils {
      * @return single list of Messages which combines and de-dupes the contents of list1 and list2
      */
     static List<Message> combineSortedMessages(@NonNull List<Message> list1, @NonNull List<Message> list2) {
+        //compare all messages in the lists to only get unique messages, if message is unique, add it to the list
+        //can use a hashmap for this - store message id as key and make true if it is found then add all messages that have true in the hashmap to the combined list
         ArrayList<Message> combined = new ArrayList<>();
         combined.addAll(list1);
         combined.addAll(list2);

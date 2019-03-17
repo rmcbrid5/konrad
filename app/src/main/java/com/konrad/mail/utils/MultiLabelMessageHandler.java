@@ -31,7 +31,7 @@ public class MultiLabelMessageHandler {
 
         @Override
         public void onResponse(Call<MessageIdsResponse> call, Response<MessageIdsResponse> response) {
-
+//            make new api request to fetch message data for each response
         }
 
         @Override
