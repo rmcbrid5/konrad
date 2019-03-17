@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/inbox_group">
+        <item
+            android:id="@+id/menu_item_inbox"
+            android:icon="@drawable/mail_icon_dark"
+            android:title="@string/inbox_drawer_menu_item_primary" />
+    </group>
+    <group android:id="@+id/filter_group">
+        <item
+            android:id="@+id/menu_item_multi_label_inbox"
+            android:icon="@drawable/mail_icon_dark"
+            android:title="@string/message_menu_select_all" />
+    </group>
+    <group android:id="@+id/labels_group">
+        <item
+            android:id="@+id/labels_group_main_item"
+            android:title="@string/inbox_drawer_menu_title_labels">
+            <menu></menu>
+        </item>
+    </group>
+    <group android:id="@+id/create_new_group">
+        <item
+            android:id="@+id/create_new_menu_item"
+            android:icon="@drawable/create_new_icon_dark"
+            android:title="@string/inbox_drawer_menu_item_create" />
+    </group>
+</menu>

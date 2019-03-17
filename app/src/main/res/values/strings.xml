@@ -1,0 +1,71 @@
+<resources>
+
+    <!--Sign in fragment-->
+    <string name="sign_in_logged_out_message">No account logged in</string>
+    <string name="sign_in_welcome_text">Welcome to the KG Android Dev Test!</string>
+    <string name="sign_in_continue_text">Continue with this account</string>
+    <string name="sign_in_choose_diff_account">Sign in with a different account</string>
+    <string name="sign_in_sign_out_text">Sign Out</string>
+
+    <!--Message response-->
+    <string name="message_response_header_name_subject">Subject</string>
+    <string name="message_response_header_name_sender">From</string>
+    <string name="message_response_field_parts">parts</string>
+    <string name="message_response_field_body">body</string>
+    <string name="message_response_body_field_data">data</string>
+
+    <!--Messagelist response-->
+    <string name="message_list_response_field_id">id</string>
+
+    <!--System variable and tags-->
+    <string name="app_name">KGMail</string>
+    <string name="inbox_title">Inbox</string>
+    <string name="google_services_client_id">285276338133-gqm9vsd2jj1k93k4v43cvha6mei8d2qk.apps.googleusercontent.com</string>
+
+    <!--Error strings-->
+    <string name="error_api_call_get_profile">getProfile call failed</string>
+    <string name="error_api_call_get_message">getMessage call failed</string>
+
+    <!--Toast errors-->
+    <string name="toast_error_fetch_label_fail">Could not fetch Labels, restart application to retry</string>
+    <string name="toast_error_fetch_inbox_fail">Could not load inbox, restart application to retry</string>
+    <string name="toast_error_add_label_fail">Failed to add label! Label name was either empty or a duplicate</string>
+
+    <string name="toast_message_no_labels">There were no labels to fetch.</string>
+    <string name="toast_error_modify_label_fail">Failed to modify labels</string>
+    <string name="toast_error_nothing_selected">You need to select a message first</string>
+    <string name="toast_error_no_filters_selected">Need to select at least one filter!</string>
+    <string name="toast_error_need_to_deselect">Deselect all messages to access the drawer menu</string>
+    <!--Menu strings-->
+    <string name="inbox_drawer_menu_item_starred">Starred</string>
+    <string name="inbox_drawer_menu_item_trash">Trash</string>
+    <string name="inbox_drawer_menu_title_labels">Labels</string>
+    <string name="inbox_drawer_menu_item_create">Create new</string>
+    <string name="inbox_drawer_menu_item_logout">Sign Out</string>
+    <string name="inbox_drawer_menu_item_settings">Settings</string>
+    <string name="inbox_drawer_menu_item_primary">Inbox</string>
+
+
+    <string name="add_label_submit_button_text">Submit</string>
+
+    <string name="change_labels_title_text">Select Desired Labels</string>
+    <string name="change_labels_cancel_button">Cancel</string>
+    <string name="change_labels_done_button">Done</string>
+
+    <string name="message_menu_select_all">Filter By Label</string>
+    <string name="message_menu_trash">Trash</string>
+    <string name="message_menu_change_labels">Change labels</string>
+    <string name="message_menu_mute">Mute</string>
+    <string name="message_menu_cancel">Cancel</string>
+
+    <string name="kg_message_field_checked">checked</string>
+
+    <string name="multi_label_select_title">Select Inbox Filters</string>
+    <string name="filtered_inbox_title">Filtered Inbox</string>
+
+    <string name="empty_folder_prefix">Nothing in %s</string>
+
+    <string name="message_sender_unknown">Unknown Sender</string>
+    <string name="message_subject_empty">(no subject)</string>
+
+</resources>

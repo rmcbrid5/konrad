@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/message_menu_select_all"
+        android:title="@string/message_menu_select_all"
+        android:icon="@drawable/checkbox_unchecked"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/message_menu_change_labels"
+        android:title="@string/message_menu_change_labels"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/message_menu_cancel"
+        android:title="@string/message_menu_cancel"
+        app:showAsAction="withText" />
+</menu>
